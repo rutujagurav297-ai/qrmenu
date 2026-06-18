@@ -10,16 +10,18 @@ app.secret_key = 'hotel-secret-123'  # must aahe
 ALL_ORDERS = {}
 
 MENU_ITEMS = [
-    {'id': 1, 'name': 'Vadapav', 'price': 20, 'category': 'veg', 'icon': ''},
-    {'id': 2, 'name': 'Misal Pav', 'price': 50, 'category': 'veg', 'icon': ''},
-    {'id': 3, 'name': 'Paneer Tikka', 'price': 120, 'category': 'veg', 'icon': '🧀'},
-    {'id': 4, 'name': 'Veg Biryani', 'price': 100, 'category': 'veg', 'icon': ''},
-    {'id': 5, 'name': 'Samosa', 'price': 15, 'category': 'veg', 'icon': '🥟'},
-    {'id': 6, 'name': 'Chicken Biryani', 'price': 150, 'category': 'non-veg', 'icon': ''},
-    {'id': 7, 'name': 'Mutton Curry', 'price': 200, 'category': 'non-veg', 'icon': ''},
-    {'id': 8, 'name': 'Egg Roll', 'price': 60, 'category': 'non-veg', 'icon': ''},
-    {'id': 9, 'name': 'Fish Fry', 'price': 180, 'category': 'non-veg', 'icon': ''},
-    {'id': 10, 'name': 'Chicken 65', 'price': 130, 'category': 'non-veg', 'icon': ''},
+    {"id":1,"name":"Poha","price":30,"category":"veg","icon":"🍚"},
+    {"id":2,"name":"Pav Bhaji","price":80,"category":"veg","icon":"🍛"},
+    {'id': 3, 'name': 'Vadapav', 'price': 20, 'category': 'veg', 'icon': ''},
+    {'id': 4, 'name': 'Misal Pav', 'price': 50, 'category': 'veg', 'icon': ''},
+    {'id': 5, 'name': 'Paneer Tikka', 'price': 120, 'category': 'veg', 'icon': '🧀'},
+    {'id': 6, 'name': 'Veg Biryani', 'price': 100, 'category': 'veg', 'icon': ''},
+    {'id': 7, 'name': 'Samosa', 'price': 15, 'category': 'veg', 'icon': '🥟'},
+    {'id': 8, 'name': 'Chicken Biryani', 'price': 150, 'category': 'non-veg', 'icon': ''},
+    {'id': 9, 'name': 'Mutton Curry', 'price': 200, 'category': 'non-veg', 'icon': ''},
+    {'id': 10, 'name': 'Egg Roll', 'price': 60, 'category': 'non-veg', 'icon': ''},
+    {'id': 11, 'name': 'Fish Fry', 'price': 180, 'category': 'non-veg', 'icon': ''},
+    {'id': 12, 'name': 'Chicken 65', 'price': 130, 'category': 'non-veg', 'icon': ''},
 ]
 
 def generate_qr_base64(data):
